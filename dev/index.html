@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Shopping cart</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper flex flex_space-between flex_align-center">
+			<a href="/" class="header__logo">
+				<img src="assets/images/logo.png" alt="LOGO">
+			</a>
+			<button class="header__shopping-btn" id="open-cart-btn">
+				<img src="assets/icons/shopping_cart.png" alt="shopping cart">
+				<i class="header__shopping-length" id="shopping-cart-icon"></i>
+			</button>
+		</div>
+	</header>
+	<main>
+		<section class="products">
+			<div class="wrapper">
+				<div class="products__content" id="products"></div>
+			</div>
+		</section>
+	</main>
+	
+<!--	<div class="modal-wrapper" tabindex="-1">-->
+		<div class="modal" id="shopping-cart-modal">
+			<h4>Shopping card</h4>
+			<div class="modal__content" id="shopping-cart-modal-content" ></div>
+		</div>
+<!--	</div>-->
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

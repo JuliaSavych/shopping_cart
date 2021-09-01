@@ -1,0 +1,33 @@
+.products {
+  &__category {
+    margin-top: 40px;
+  }
+}
+
+.product {
+  border-bottom: 1px solid #802C6E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    padding: 15px 5px;
+    flex-grow: 1;
+  }
+}
+
+.button {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000000;
+  font-size: 20px;
+
+  &_add {
+    background-color: #78A962;
+  }
+
+  &_remove {
+    background-color: #C94D3F;
+    color: #FFFFFF;
+  }
+}

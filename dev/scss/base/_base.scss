@@ -1,0 +1,47 @@
+//BASE - base styles for entire site (стили основных элементов сайта - body, input, button,ul, ol и др. reset.css)
+//MODULES - Re-usable site elements. (стили модулей - блоков, которые могут несколько раз использоваться на странице.)
+//PAGES - includes modules (via import) and page styles
+//UTILITIES - variables and mixins
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: $p-font-regular;
+  background-color: $color-gallery;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.modal-open {
+  overflow: hidden;
+  opacity: 0.7;
+}

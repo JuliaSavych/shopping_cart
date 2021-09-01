@@ -1,0 +1,32 @@
+.header {
+  padding: 10px 0;
+  box-shadow: -1px 6px 15px -5px rgba(34, 60, 80, 0.6);
+
+  &__logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__shopping-btn {
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    position: relative;
+  }
+
+  &__shopping-length {
+    position: absolute;
+    top: -9px;
+    right: -11px;
+    border-radius: 50%;
+    background-color: #802C6E;
+    color: #FFFFFF;
+    padding: 3px 10px;
+    visibility: hidden;
+
+    &_visible {
+      visibility: visible;
+    }
+  }
+}
